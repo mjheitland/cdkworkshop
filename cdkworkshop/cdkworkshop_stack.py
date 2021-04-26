@@ -7,7 +7,6 @@ from aws_cdk import (
 from cdk_dynamo_table_viewer import TableViewer
 from hitcounter import HitCounter
 
-
 class CdkworkshopStack(core.Stack):
 
     def __init__(self, scope: core.Construct, id: str, **kwargs) -> None:
